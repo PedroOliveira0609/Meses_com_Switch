@@ -10,9 +10,9 @@ namespace UsandoSwitchCase
 
       string mes;
       Console.WriteLine("Digite o nome do mês que deseja saber quantos dias ele tem:");
-      mes = Console.ReadLine();
+      MES = Console.ReadLine();
 
-      switch (mes)
+      switch (MES)
       {
         case "janeiro":
         Console.Write("Esse mês tem 31 dias");
